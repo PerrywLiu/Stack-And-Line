@@ -16,6 +16,11 @@
 		BC9CB9CD244088DF007A1C82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9CC244088DF007A1C82 /* main.m */; };
 		BC9CB9D7244088DF007A1C82 /* PMStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9D6244088DF007A1C82 /* PMStackTests.m */; };
 		BC9CB9E2244088E0007A1C82 /* PMStackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9E1244088E0007A1C82 /* PMStackUITests.m */; };
+		BC9CB9F124408AA6007A1C82 /* PMLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9EF24408AA6007A1C82 /* PMLinkList.m */; };
+		BC9CB9F424408AB9007A1C82 /* PMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9F324408AB9007A1C82 /* PMStack.m */; };
+		BC9CB9F724408BF3007A1C82 /* PMNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9F524408BF3007A1C82 /* PMNode.m */; };
+		BC9CB9FA24408E31007A1C82 /* PMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9F924408E31007A1C82 /* PMLine.m */; };
+		BC9CB9FD24408E95007A1C82 /* PMTwoWayLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9CB9FC24408E95007A1C82 /* PMTwoWayLinkList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		BC9CB9DD244088E0007A1C82 /* PMStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9CB9E1244088E0007A1C82 /* PMStackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMStackUITests.m; sourceTree = "<group>"; };
 		BC9CB9E3244088E0007A1C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9CB9EF24408AA6007A1C82 /* PMLinkList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMLinkList.m; sourceTree = "<group>"; };
+		BC9CB9F024408AA6007A1C82 /* PMLinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLinkList.h; sourceTree = "<group>"; };
+		BC9CB9F224408AB9007A1C82 /* PMStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMStack.h; sourceTree = "<group>"; };
+		BC9CB9F324408AB9007A1C82 /* PMStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMStack.m; sourceTree = "<group>"; };
+		BC9CB9F524408BF3007A1C82 /* PMNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMNode.m; sourceTree = "<group>"; };
+		BC9CB9F624408BF3007A1C82 /* PMNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMNode.h; sourceTree = "<group>"; };
+		BC9CB9F824408E31007A1C82 /* PMLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLine.h; sourceTree = "<group>"; };
+		BC9CB9F924408E31007A1C82 /* PMLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMLine.m; sourceTree = "<group>"; };
+		BC9CB9FB24408E95007A1C82 /* PMTwoWayLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMTwoWayLinkList.h; sourceTree = "<group>"; };
+		BC9CB9FC24408E95007A1C82 /* PMTwoWayLinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMTwoWayLinkList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +119,12 @@
 		BC9CB9B9244088DC007A1C82 /* PMStack */ = {
 			isa = PBXGroup;
 			children = (
+				BC9CB9FB24408E95007A1C82 /* PMTwoWayLinkList.h */,
+				BC9CB9FC24408E95007A1C82 /* PMTwoWayLinkList.m */,
+				BC9CB9F624408BF3007A1C82 /* PMNode.h */,
+				BC9CB9F524408BF3007A1C82 /* PMNode.m */,
+				BC9CB9F024408AA6007A1C82 /* PMLinkList.h */,
+				BC9CB9EF24408AA6007A1C82 /* PMLinkList.m */,
 				BC9CB9BA244088DC007A1C82 /* AppDelegate.h */,
 				BC9CB9BB244088DC007A1C82 /* AppDelegate.m */,
 				BC9CB9BD244088DC007A1C82 /* SceneDelegate.h */,
@@ -115,6 +136,10 @@
 				BC9CB9C8244088DF007A1C82 /* LaunchScreen.storyboard */,
 				BC9CB9CB244088DF007A1C82 /* Info.plist */,
 				BC9CB9CC244088DF007A1C82 /* main.m */,
+				BC9CB9F224408AB9007A1C82 /* PMStack.h */,
+				BC9CB9F324408AB9007A1C82 /* PMStack.m */,
+				BC9CB9F824408E31007A1C82 /* PMLine.h */,
+				BC9CB9F924408E31007A1C82 /* PMLine.m */,
 			);
 			path = PMStack;
 			sourceTree = "<group>";
@@ -267,10 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9CB9FA24408E31007A1C82 /* PMLine.m in Sources */,
 				BC9CB9C2244088DC007A1C82 /* ViewController.m in Sources */,
+				BC9CB9F424408AB9007A1C82 /* PMStack.m in Sources */,
 				BC9CB9BC244088DC007A1C82 /* AppDelegate.m in Sources */,
+				BC9CB9F724408BF3007A1C82 /* PMNode.m in Sources */,
+				BC9CB9F124408AA6007A1C82 /* PMLinkList.m in Sources */,
 				BC9CB9CD244088DF007A1C82 /* main.m in Sources */,
 				BC9CB9BF244088DC007A1C82 /* SceneDelegate.m in Sources */,
+				BC9CB9FD24408E95007A1C82 /* PMTwoWayLinkList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

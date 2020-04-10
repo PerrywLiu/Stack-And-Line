@@ -10,11 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PMLine : NSObject
+@interface PMQUEUE : NSObject
 
 - (void)addElement:(id)element;
 
 - (id)removeHeadElement;
+
+- (BOOL)isEmpty;
+
+- (id)frontElement;
+
+- (void)clear;
 
 - (void)print;
 

@@ -6,15 +6,15 @@
 //  Copyright © 2020 LiuPW. All rights reserved.
 //
 
-#import "PMLine.h"
+#import "PMQUEUE.h"
 #import "PMTwoWayLinkList.h"
-@interface PMLine()
+@interface PMQUEUE()
 {
     PMTwoWayLinkList *_twoWayList;
 }
 @end
 
-@implementation PMLine
+@implementation PMQUEUE
 
 - (instancetype)init
 {
@@ -37,6 +37,21 @@
     }
     
     return [_twoWayList removeNodeAtIndex:0];
+}
+
+- (id)frontElement
+{
+    return [_twoWayList getNodeAtIndex:0];
+}
+
+- (void)clear
+{
+    [_twoWayList clear];
+}
+
+- (BOOL)isEmpty
+{
+    return [_twoWayList countOfNode] == 0;
 }
 
 - (void)print
